@@ -81,6 +81,10 @@ $ ls
 id_rsa  id_rsa.pub  known_hosts
 ```
 
-The path to the private key: `/c/Users/fati2/.ssh/id_rsa`
+The path to the private key: `/c/Users/fati2/.ssh/id_rsa`  
 
+![image](PublicKey.png)  
 
+The path to the public key: `/home/linux/ieng6/cs15lfa23/cs15lfa23ku/.ssh/authorized_keys`  
+
+logging into ieng6 without being asked for a password:  
