@@ -88,3 +88,10 @@ The path to the private key: `/c/Users/fati2/.ssh/id_rsa`
 The path to the public key: `/home/linux/ieng6/cs15lfa23/cs15lfa23ku/.ssh/authorized_keys`  
 
 logging into ieng6 without being asked for a password:  
+![image](login.png)  
+
+Part 3
+---  
+
+One of the new things I learned in this lab is that the plus sign is a meta charater that needs to be preceded with 2 backslashes:   `String[] words = parameters[1].split("\\+");`  
+Another neat thing that I learned is not needing to type my password to login th `ieng6` account! I don't really understand the speficications of ssh keys but it's cool nonetheless. 
