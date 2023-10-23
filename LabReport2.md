@@ -59,14 +59,28 @@ class StringServer {
     }
 }
 ```
-To start the server, I first needed to compile it and Server.java and then run StringServer with a port number. And as seen in the StringServer class, the port number is used in the method **start** which initiates the server. After that we code open the URL and start making requests.  
+To start the server, I first needed to compile it and Server.java and then run StringServer with a port number. And as seen in the StringServer class, the port number is used in the method `start` which initiates the server. After that we code open the URL and start making requests.  
 
 For example: 
 ![image](Hello.png) 
-Here, to add "Hello," we need to use the method **handleRequest** whose argument is the whole URL and uses it to parse if there's the path *add-message* and adds whatever string is after the query. The *num* feild gets updated to 1 and shows up in next to the "Hello" string. The URL itself doesn't change. 
+Here, to add "Hello," we need to use the method `handleRequest` whose argument is the whole URL and uses it to parse if there's the path **add-message** and adds whatever string is after the query. The `num` feild gets updated to 1 and shows up in next to the "Hello" string. The URL itself doesn't change with the exception of having a path. 
 
-After: 
-![image](How are you.png)   
+Continuing the example:  
+![image](How_are_you.png)   
+We added the string "How are you" which uses the same method as "Hello," `handleRequest`. The `num` feild gets updated to 2 and shows up in next to the "How are you" string. The URL itself doesn't change with the exception of having a path that requests "How are you" instead of "Hello".  
 
+Part 2
+---
+```ruby
+fati2@LAPTOP-COMJ3VDF MINGW64 ~/.ssh
+$ pwd
+/c/Users/fati2/.ssh
+
+fati2@LAPTOP-COMJ3VDF MINGW64 ~/.ssh
+$ ls
+id_rsa  id_rsa.pub  known_hosts
+```
+
+The path to the private key: `/c/Users/fati2/.ssh/id_rsa`
 
 
